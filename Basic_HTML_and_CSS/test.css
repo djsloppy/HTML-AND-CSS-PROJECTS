@@ -1,0 +1,55 @@
+p {
+	color: blue;
+	text-align: center;
+}
+body {
+	font-style: italic;
+	text-align: center;
+}
+.Class_A {
+	color: blue;
+}
+.font_1 {
+	background-color: black;
+	color: yellow;
+	font-size: large;
+}
+.font_2 {
+	background-color: darkblue;
+	color: white;
+	font-size: medium;
+}
+.my_style {
+	background-color: red;
+	color: green;
+	text-decoration: underline ;
+	font-weight: bolder;
+	font-size: larger;
+}
+h1 {
+	background-color: yellow;
+}
+p {
+	color: blue;
+}
+table {
+	border: 1px solid silver;
+}
+td:hover {
+	background-color: yellow;
+	color: black;
+}
+tr, th {
+	background-color: black;
+	color: cornsilk;
+}
+tr, td {
+	background-color: darkgreen;
+	color: white;
+}
+.Red {
+	color: red;
+}
+.Blue {
+	color: blue;
+}
