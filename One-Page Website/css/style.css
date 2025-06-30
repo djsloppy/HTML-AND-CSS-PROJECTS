@@ -1,0 +1,60 @@
+/* NAVBAR */
+li{
+    display: inline;
+    padding: 5px;
+}
+
+a{
+    font-family: "Roboto", sans-serif; /* Font from fonts.google.com */
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 1px .5px 4px rgba(46, 31, 31, 0.5);
+    color: black;
+    text-decoration: none; /* Removes the default link styling */
+}
+
+a:hover{
+    color: #d7eaf7; /* Changes the color of the anchor element when a user hovers their mouse over it */
+}
+
+.navbar{
+    background-color: #216391;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* The following minus margins stretch the navbar background beyond the web browser screen edge */
+    margin-top: -8px;
+    margin-left: -10px;
+    margin-right: -10px;
+    position: sticky; /* Creates a sticky element that stays in the same spot in the browser screen */
+    top: 0; /* Tells the browser to stick the element at the top of the page based on user scrolling */
+    z-index: 9; /* Sets the stack layer of the navbar to scroll over all elements */
+}
+
+/* IMAGES */
+.zoom{
+    transform: scale(1);
+    transition: 0.5s ease-out;
+    z-index: 3;
+}
+
+.zoom:hover{
+    transform: scale(2);
+    transition: 0.5s ease-out;
+}
+
+/* TABLE */
+table{
+    width: 75% ;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
+}
+
+p, summary, td, h2, h1{
+    font-family: "Roboto", sans-serif; /* Font from fonts.google.com */
+}
