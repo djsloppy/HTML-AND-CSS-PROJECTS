@@ -462,6 +462,7 @@ input[type="submit"]:hover{
     text-align: justify;
     padding-top: 20px;
     margin-left: 40px;
+    margin-right: 40px;
 }
 
 /* Sets margin left to 0 because it is not needed on a small screen and centers text */
