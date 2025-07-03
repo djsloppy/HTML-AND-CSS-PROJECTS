@@ -1,19 +1,19 @@
 /* NAVBAR */
-li{
+.navbar li{
     display: inline;
-    padding: 5px;
+    padding: 8px;
 }
 
-a{
+.navbar a{
     font-family: "Roboto", sans-serif; /* Font from fonts.google.com */
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
     text-shadow: 1px .5px 4px rgba(46, 31, 31, 0.5);
     color: black;
     text-decoration: none; /* Removes the default link styling */
 }
 
-a:hover{
+.navbar a:hover{
     color: #d7eaf7; /* Changes the color of the anchor element when a user hovers their mouse over it */
 }
 
@@ -57,4 +57,28 @@ tr:nth-child(even){
 
 p, summary, td, h2, h1{
     font-family: "Roboto", sans-serif; /* Font from fonts.google.com */
+    font-size: 20px;
+}
+
+/* FORM */
+input, textarea{
+    width: 200px;
+    height: 25px;
+    margin: 2px 10px;
+    border: 2px solid;
+    border-color: #216391;
+    border-radius: 10px;
+}
+
+textarea{
+    width: 430px;
+    height: 50px;
+}
+
+hr{
+    width: 50%;
+}
+
+footer{
+    text-align: center;
 }
