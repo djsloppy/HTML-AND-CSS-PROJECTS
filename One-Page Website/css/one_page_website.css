@@ -1,3 +1,7 @@
+html{
+    scroll-padding-top: 95px;
+}
+
 /* NAVBAR */
 .navbar li{
     display: inline;
@@ -8,8 +12,8 @@
     font-family: "Roboto", sans-serif; /* Font from fonts.google.com */
     font-size: 30px;
     font-weight: 700;
-    text-shadow: 1px .5px 4px rgba(46, 31, 31, 0.5);
-    color: black;
+    text-shadow: 1px .5px 4px rgba(78, 66, 66, 0.5);
+    color: 216391;
     text-decoration: none; /* Removes the default link styling */
 }
 
@@ -18,7 +22,7 @@
 }
 
 .navbar{
-    background-color: #216391;
+    background-color: black;
     padding-top: 10px;
     padding-bottom: 10px;
     /* The following minus margins stretch the navbar background beyond the web browser screen edge */
@@ -80,5 +84,18 @@ hr{
 }
 
 footer{
-    text-align: center;
+    border-top: 5px solid;
+    background-color: black;
+    margin: 0px -15px 0px -15px;
+}
+
+.footer-text{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.footer-img{
+    width: auto;
+    height: 100px;
 }
