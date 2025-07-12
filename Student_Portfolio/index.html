@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<!--Head-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Darren Sloppy's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+</head>
+
+<!--Body-->
+
+<body class="Background">
+
+    <!--Navbar-->
+    <div class="Navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#GitHub">GitHub</a>
+        <a href="#Contact">Contact</a>
+    </div>
+
+    <!--Breaks inserted to add space between navbar and the first heading-->
+    <br>
+    <br>
+
+    <!--Background video-->
+    <div id="Home">
+        <video autoplay muted loop id="Typing_Video">
+            <source src="images/video/coding.mp4" type="video/mp4">
+            <!--Display message if video fails to run-->
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+
+    <!--Video text-->
+    <div class="Video_Text">
+        <div class="white-text">
+            <!--<h1>Darren Sloppy's Portfolio</h1>-->
+        </div>
+        <strong>
+            <br>
+            <p class="center intro">Welcome!! I am Darren Sloppy and you have found my portfolio website. Here you
+                will get to know a little bit about me and links to my GitHub and LinkedIn profiles where you can see
+                all of my projects and career experience. Please feel free to reach out to me using the <a
+                    href="#Contact">contact form</a> below.
+                <br>
+                <br> Thank you for stopping by and enjoy!
+            </p></strong><br>
+            <hr>
+            <br>
+            <p class="center">
+                <q>Most good programmers do programming not because they expect to get paid or get adulation by the
+                    public, but because it is fun to program.</q>
+            <p class="center"> – Linus Torvalds</p>
+            </p>
+    </div>
+
+    <!--About section-->
+    <div class="Row" id="About">
+        <!--Left column-->
+        <div class="Column_2">
+            <img src="images/laptop.jpg" alt="Laptop image">
+        </div>
+        <!--Right column-->
+        <div class="Column_1">
+            <h1>About</h1>
+            <p>
+                I am a software developer who loves to code! As a husband and father of two, I enjoy time with my family, board games, and sports.
+                <br>
+                <br>I am a currently enrolled in <a href="https://www.learncodinganywhere.com" target="_blank">The Tech
+                    Academy</a>’s Python Boot Camp, and trained and experienced in the following web and programming
+                languages: HTML, CSS, JavaScript, SQL, Python and more.
+                <br>
+                <br>I am a full-stack developer and would love to work with you on your project. <a
+                    href="#Contact">Contact</a> me below!
+            </p>
+        </div>
+    </div>
+
+    <!--GitHub section-->
+    <div class="Row" id="GitHub">
+        <!--Left column-->
+        <div class="Column_1">
+            <h1>GitHub</h1>
+            <p>
+                Take a look at my coding projects on my GitHub profile here:
+                <br>
+            <p class="center"><a href="https://github.com/djsloppy/" target="_blank">Darren Sloppy's Github</a></p>
+            </p>
+            <hr>
+            <h1>LinkedIn</h1>
+            <p>
+                Feel free to view my career experience and LinkedIn profile here:
+                <br>
+            <p class="center"><a href="https://www.linkedin.com/in/darren-sloppy/" target="_blank">Darren Sloppy's
+                    LinkedIn profile</a></p>
+            </p>
+        </div>
+        <!--Right column-->
+        <div class="Column_2">
+            <img src="images/success.jpg" alt="GitHub Logo">
+        </div>
+    </div>
+
+    <!--Contact section-->
+    <div class="Row" id="Contact">
+        <!--Contact image, left column-->
+        <div class="Column_2 Column_tall">
+            <img src="images/email.png" alt="Contact_Image">
+        </div>
+        <!--Contact form, right column-->
+        <div class="Column_1 Column_tall">
+            <h1>Contact</h1>
+            <!--This specifies where and how to send the form data; we are leaving it blank-->
+            <form action="https://formspree.io/f/xrbkwygz" method="POST">
+                <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                <label>Name:</label>
+                <input type="text" placeholder="Please enter your name here">
+                <label>Email:</label>
+                <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                <label>Message:</label>
+                <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+
+    <!--Footer section-->
+    <footer>
+        <p class="center">&copy Darren Sloppy<br>
+            <a href="https://github.com/djsloppy/" target="_blank"><img src="images/github.png" alt="GitHub Logo"></a><a
+                href="https://www.linkedin.com/in/darren-sloppy/" target="_blank"><img src="images/linkedin.png"
+                    alt="LinkedIn logo"></a>
+        </p>
+    </footer>
+</body>
+
+</html>
