@@ -3,16 +3,16 @@
 All of the project files for The Tech Academy's HTML and CSS Course will be stored within this repository.
 
 ## Key Projects
-1 Basic HTML and CSS
-2 The Pet Shop Site
-3 Creating CSS Effects
-4 Simple Recipes
-5 Academy Cinemas
-6 One Page Website
-7 Album Challenge
-8 Final Challenge
-9 Live Coding
-10 Student Portfolio
+- Basic HTML and CSS
+- The Pet Shop Site
+- Creating CSS Effects
+- Simple Recipes
+- Academy Cinemas
+- One Page Website
+- Album Challenge
+- Final Challenge
+- Live Coding
+- Student Portfolio
 
 
 #### Basic HTML and CSS
